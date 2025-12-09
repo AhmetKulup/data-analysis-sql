@@ -51,3 +51,11 @@ Tedarikçi ve satın alma süreçleri.
 | `expected_delivery_date` | Beklenen teslim tarihi |
 | `delivery_date` | Gerçek teslim tarihi |
 
+
+Phyton için;
+The repository includes a mini data pipeline demonstrating beginner-friendly 
+data analysis:
+
+1. data_cleaning.py → handles nulls, fixes types, creates new columns
+2. basic_analysis.py → computes KPIs such as monthly revenue and top products
+3. visualization.py → turns the KPIs into clear charts (line, bar, pie)
